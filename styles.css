@@ -55,7 +55,7 @@ body,html{
   height: auto;
 }
 
-.stick-nav {
+.sticky-nav {
   position: fixed;
   top: 0;
   width: 100%;
