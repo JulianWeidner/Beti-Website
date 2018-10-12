@@ -91,9 +91,15 @@ body,html{
 .subsection-header{
   text-align: left;
   color: #4da6ff; 
+  padding: 0 20% 0 20%;
+  margin-bottom: 0;
 }
 
+
 .section-text{
+  padding: 0 20% 0 20%;
   text-align: justify;
   font-size: 1rem;
+  margin-top: 0;
+  
 }
