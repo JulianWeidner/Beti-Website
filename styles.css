@@ -65,14 +65,19 @@ body,html{
 .navbar-container li{
   display: inline-block;
   font-size: 1.5rem;
-  padding: .5% 1.5% 0 1.5%;
+  padding: .5% 1.9% 0 1.5%;
   margin: 0;
   height: auto;
-  
+  float: right;
 }
 .navbar-container a {
   text-decoration: none;
   color: white;
+}
+
+#nav-title{
+ float: left;
+ padding-left: 6%;
 }
 .sticky-nav {
   position: fixed;
