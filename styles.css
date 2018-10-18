@@ -18,13 +18,9 @@ body,html{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-<<<<<<< HEAD
   background-size: cover;
-
-=======
-  background-size: auto;
   font-family: 'Satisfy', cursive;
->>>>>>> d85ca33e5bbb166788a1343da292f7148b901545
+  
   text-align: center;
 }
 
@@ -123,7 +119,6 @@ body,html{
   
 }
 
-<<<<<<< HEAD
 .parallax-bg-one{
   height: 45%;
   width: 100vw;
@@ -134,7 +129,6 @@ body,html{
   background-size: cover;
 
 }
-=======
 .footer-container{
   height: 20vh;
   width: 100vw;
