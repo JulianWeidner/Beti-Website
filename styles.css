@@ -14,7 +14,7 @@ body,html{
 .header-title{
   height: 95vh;
   width: 100vw;
-  background-image: url("../beti-website/media/bannerHeader.png");
+  background-image: url("../media/bannerHeader.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -74,6 +74,7 @@ body,html{
 .navbar-container a {
   text-decoration: none;
   color: white;
+  font-family: 'Satisfy', cursive;
 }
 
 #nav-title{
@@ -87,13 +88,23 @@ body,html{
   width: 100%;
 }
 
+.donor-section iframe {
+  text-align: center;
+  padding-left: 20%;
+}
+
+#video {
+  height: 30vh;
+  width: 80vw;
+  text-align: center;
+}
+
 
 /* Pseudo Classes */
 
 .section-header{
   text-align: center;
   color: #4da6ff; 
-  font-family: 'Hind Siliguri', sans-serif;
 }
 
 .subsection-header{
@@ -110,6 +121,7 @@ body,html{
   text-align: justify;
   font-size: 1rem;
   margin-top: 0;
+  word-break: break-all;
   
 }
 
