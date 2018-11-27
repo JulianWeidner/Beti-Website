@@ -18,8 +18,9 @@ body,html{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   font-family: 'Satisfy', cursive;
+  
   text-align: center;
 }
 
@@ -28,6 +29,7 @@ body,html{
   width: 100vw;
   margin: 0;
   color: white;
+  font-family: 'Annie Use Your Telescope', cursive;
 }
 
 .header-title p{
@@ -88,15 +90,8 @@ body,html{
   width: 100%;
 }
 
-.donor-section iframe {
-  text-align: center;
-  padding-left: 20%;
-}
-
-#video {
-  height: 30vh;
-  width: 80vw;
-  text-align: center;
+.about-container{
+  padding: 10%;
 }
 
 
@@ -125,6 +120,16 @@ body,html{
   
 }
 
+.parallax-bg-one{
+  height: 45%;
+  width: 100vw;
+  background-image: url("../beti-website/media/pallelax-one.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
 .footer-container{
   height: 20vh;
   width: 100vw;
@@ -134,3 +139,4 @@ body,html{
 .container-shadow{
   box-shadow: 0px 1px 5px grey;
 }
+>>>>>>> d85ca33e5bbb166788a1343da292f7148b901545
